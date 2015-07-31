@@ -1,0 +1,85 @@
+<style>
+h1{
+  text-align: center;
+  background-image: url(https://www.hawksnesttubing.com/overlay-sub.png);
+  color: white;
+  text-shadow: 4px 4px 8px black;
+}
+h5{ text-align: center;
+}
+h3{
+  text-align: center;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 0;
+}
+li{
+  display: inline-block;
+  text-decoration: none;
+}
+a{
+  display: block;
+  width: auto;
+  background-color: #ffffff;
+  padding: 20px 25px;
+  font-size: 16px;
+  letter-spacing:3px;
+}
+
+nav.active a, nav.active a:hover {
+ background-color: yellow;
+}
+nav {list-style: none;
+padding: 0;
+margin: 0;
+position: fixed;
+top: 0;
+left: 0;
+display:inline-block;
+width:100%;
+height:150px;
+text-align: center;
+font-family: "Lato",sans-serif;
+}
+nav ul li {
+}
+/* Make the list of links take up the whole width of the nav */
+nav ul {
+width: 100%;
+}
+nav ul li:first-child a {
+border-top-left-radius: 8px;
+border-bottom-left-radius: 8px;
+}
+nav ul li:last-child a {
+border-top-right-radius: 8px;
+border-bottom-right-radius: 8px;
+}
+nav ul li a,
+nav ul li a:focus,
+nav ul li a:visited,
+nav ul li a:hover,
+nav ul li a:active{
+color: #000;
+text-decoration: none;
+}
+nav ul li a:hover{
+background: #009999;
+}
+.center{
+    width:800px;
+    margin:0 auto;
+    text-align: center;
+    padding-top: 25px;
+}
+.pika{}
+#pikachu{
+  padding: 10px;
+  position: relative;
+  top:10px;
+}
+</style>

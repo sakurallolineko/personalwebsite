@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" type="text/css" href="css/comments.css">
+<body bgcolor="#f88379";>
+<br><br>
+<hr width=50%;>
+<center>
+  <head>
+
+<title> Cecilia Estrada</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+      <h1>Welcome to the comment page</h1>
+      <h5>please leave a comment </h5>
+      <nav>
+        <ul>
+          <li><a href="index.html" id="pikachu"><img src="http://24.media.tumblr.com/tumblr_mcm1ec68fN1qfqgb9o1_1280.gif"
+          style="width:34px;height:34px;"></a></li>
+          <li><a href="gallery.html">GALLERY</a></li>
+          <li><a href="recomendations.html">RECOMMENDATIONS</a></li>
+          <li><a href="about.html"> ABOUT</a> </li>
+          <li><a href="comments.html"> COMMENTS</a></li>
+        </ul>
+      </nav>
+      <hr width=60%>
+      <center>
+    <div id="respond">
+
+  <h3>Leave a Comment</h3>
+
+  <form action="post_comment.php" method="post" id="commentform">
+
+    <label for="comment_author" class="required">Your name</label>
+    <input type="text" name="comment_author" id="comment_author" value="" tabindex="1" required="required">
+
+    <label for="email" class="required">Your email;</label>
+    <input type="email" name="email" id="email" value="" tabindex="2" required="required">
+
+    <label for="comment" class="required">Your message</label>
+    <textarea name="comment" id="comment" rows="10" tabindex="4"  required="required"></textarea>
+
+    <-- comment_post_ID value hard-coded as 1 -->
+    <input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID" />
+    <input name="submit" type="submit" value="Submit comment" />
+
+  </form>
+
+</div>
+  </body>
+</html>
